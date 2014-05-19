@@ -14,6 +14,8 @@ iBeacons with one of this UUID can be auto-detected in the supported apps. If yo
 
 As recommended by Apple all iBeacons ranged for by an app share a UUID. The drill down to a specific iBeacons uses the Major ID for a rough localization by room or space and the Major ID for the specifc spot.
 
+![Scheme](https://raw.githubusercontent.com/AwwApps/Open-iBeacon-Credentials/master/assets/Scheme_Teaser.svg)
+
 ## UUID
 
 **AA6062F0-98CA-4211-8EC4-193EB73CEBE6**
