@@ -3,12 +3,12 @@ Open-iBeacon-Credentials
 
 A shared iBeacon identifier scheme for common use cases.
 
-iBeacons with one of this UUID can be auto-detected in the supported apps. If you use one of the Major ID / Minor ID they will also show up with the defined title automatically. 
+iBeacons using the UUID **AA6062F0-98CA-4211-8EC4-193EB73CEBE6** can be auto-detected in all supported cross-iBeacon vendor apps. Optionally use one of the predefined Major and Minor IDs to link a specific title to your iBeacon. This makes linking an iBeacon a one tap procedure instead of manually entering IDs and display names. Welcome to the future.
 
 ### Supporting Apps
 
-* Launch Here (upcoming)
-* Travel Radar (upcoming)
+* [Launch Here](http://launchhere.awwapps.com) (upcoming)
+* [Travel Radar](http://travelradar.awwapps.com) (upcoming)
 
 # Credentials
 
