@@ -16,7 +16,7 @@ As recommended by Apple all iBeacons ranged for by an app share a UUID. The dril
 
 ## UUID
 
-**AWW1DA8D-65B5-48A3-973F-ACD36B6525EF**
+**AA6062F0-98CA-4211-8EC4-193EB73CEBE6**
 
 ## Major ID
 
@@ -28,15 +28,13 @@ As recommended by Apple all iBeacons ranged for by an app share a UUID. The dril
 | 100 - 199 | Home |
 | --------- | ---- |
 | 101       | Entry|
-| 102       | Bathroom|
-| 103       | Kitchen|
-| 104       | Office|
-| 105       | Storage|
-| 106       | Hallway|
-| 107       | Bedroom|
-| 108       | Work|
-| 109       | Living Room|
-| 110       | Kids Room|
+| 102       | Hallway|
+| 103       | Living Room|
+| 104       | Kitchen|
+| 105       | Pantry |
+| 106       | Bedroom|
+| 107       | Bathroom|
+| 108       | Office|
 
 
 | 200 - 299 | Work |
@@ -71,39 +69,49 @@ As recommended by Apple all iBeacons ranged for by an app share a UUID. The dril
 | 102 | Desk |
 | 103 | Table |
 | 104 | Wardrobe |
-| 105 | Bed |
+| 105 | Cupboard |
+| 106 | Hat Stand |
+| 107 | Bed |
 
-| 200 - 299 | Household Appliances |
+
+| 200 - 299 | Household Appliance |
 | --------- | ---------- |
-| 201 | Water | Boiler
-| 202 | Coffee | Machine
+| 201 | Water Boiler |
+| 202 | Coffee Machine |
 | 203 | Sink |
 | 204 | Heater |
 | 205 | Fridge |
-| 206 | Wardrobe |
+| 206 | Washing Machine |
+
 
 | 300 - 399 | Entertainment Electronics |
 | --------- | ---------- |
-| 301 | Apple | TV
+| 301 | Apple TV |
 | 302 | TV |
 | 303 | Projector |
-| 304 | Gaming | System
-| 305 | Turntables |
+| 304 | Gaming System | 
+| 305 | Record Player |
 | 306 | Stereo |
+
 
 | 400 - 499 | Emulators |
 | --------- | ---------- |
 | 401 | iOS |
 | 402 | Macbook |
 | 403 | iMac |
-| 404 | Mac | Mini
+| 404 | Mac Mini |
+| 404 | Mac Pro |
 | 405 | Computer |
-| 406 | Raspberry | Pi
+| 406 | Raspberry Pi |
+
 
 | 500 - 599 | Luggage |
 | --------- | ---------- |
 | 501 | Backpack |
 | 502 | Suitcase |
+| 502 | Hand Luggage |
+| 502 | Bag |
+
  
 | 600 - 699 | Transportation |
 | --------- | ---------- |
@@ -111,3 +119,13 @@ As recommended by Apple all iBeacons ranged for by an app share a UUID. The dril
 | 602 | Car |
 | 603 | Skateboard |
 | 604 | Motorcycle |
+
+
+| 700 - 799 | Wearables |
+| --------- | ---------- |
+| 701 | Watch |
+| 702 | Ring |
+| 703 | Band |
+| 704 | Necklace |
+| 704 | Cap |
+| 704 | Glasses |
