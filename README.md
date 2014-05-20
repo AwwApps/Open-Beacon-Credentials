@@ -22,105 +22,82 @@ As recommended by Apple all iBeacons ranged for by an app share a UUID. The dril
 
 ## Major ID
 
-| 1 - 99 | Custom range, no set |
+| 0 - 99 | Custom range |
 | ------ | -------------------- |  
-| - | - |
+| 0 | Portable 
+| 1 - 99 | Undefined/Custom
 
 
 | 100 - 199 | Home |
 | --------- | ---- |
-| 101       | Entry|
-| 102       | Hallway|
-| 103       | Living Room|
-| 104       | Kitchen|
-| 105       | Pantry |
-| 106       | Bedroom|
-| 107       | Bathroom|
-| 108       | Office|
+| 101       | Entry
+| 102       | Hallway
+| 103       | Living Room
+| 104       | Kitchen
+| 105       | Bedroom
+| 107       | Bathroom
+| 108       | Office
 
 
-| 200 - 299 | Work |
-| --------- | ---- |
-| 201       | Entry |
-| 202       | Kitchen |
-| 203       | Bathroom |
-| 204       | Desk |
+| 200 - 299 | Work 
+| --------- | ---- 
+| 201       | Entry 
+| 202       | Kitchen 
+| 203       | Bathroom 
 
 
-| 300 - 399 | Commercial |
-| --------- | ---------- |
-| 301 | Entry |
-| 302 | Cashpoint |
-| 303 | Check Out |
-| 304 | Bathroom |
+| 300 - 399 | Commercial 
+| --------- | ---------- 
+| 301 | Entry 
+| 302 | Cashpoint 
+| 303 | Bathroom 
 
-| 0 | Portable |
-| ------ | -------------------- |  
-|  |  |
 
 ## Minor ID
 
-| 1 - 99 | Custom range, no set |
-| ------ | -------------------- |  
-| - | - |
+| 0 - 99 | Custom range 
+| ------ | -------------------- 
+| 1 - 99 | Undefined/Custom
 
 
-| 100 - 199 | Furniture |
-| --------- | ---------- |
-| 101 | Sofa |
-| 102 | Desk |
-| 103 | Table |
-| 104 | Wardrobe |
-| 105 | Cupboard |
-| 106 | Hat Stand |
-| 107 | Bed |
+| 100 - 199 | Furniture 
+| --------- | ---------- 
+| 101 | Sofa 
+| 102 | Desk 
+| 103 | Table 
+| 104 | Wardrobe 
+| 105 | Bed 
 
 
-| 200 - 299 | Household Appliance |
-| --------- | ---------- |
-| 201 | Water Boiler |
-| 202 | Coffee Machine |
-| 203 | Sink |
-| 204 | Heater |
-| 205 | Fridge |
-| 206 | Washing Machine |
+| 200 - 299 | Appliance 
+| --------- | ---------- 
+| 201 | Boiler
+| 202 | Coffee
+| 203 | Stove
+| 204 | Oven
+| 205 | Fridge
 
 
-| 300 - 399 | Entertainment Electronics |
-| --------- | ---------- |
-| 301 | Apple TV |
-| 302 | TV |
-| 303 | Projector |
-| 304 | Gaming System | 
-| 305 | Record Player |
-| 306 | Stereo |
+| 300 - 399 | Electronics
+| --------- | ---------- 
+| 301 | TV
+| 302 | Projector 
+| 303 | Gaming 
+| 304 | Stereo 
 
 
-| 400 - 499 | Emulators |
-| --------- | ---------- |
-| 401 | iOS |
-| 402 | Macbook |
-| 403 | iMac |
-| 404 | Mac Mini |
-| 404 | Mac Pro |
-| 405 | Computer |
-| 406 | Raspberry Pi |
-
-
-| 500 - 599 | Luggage |
-| --------- | ---------- |
-| 501 | Backpack |
-| 502 | Suitcase |
-| 502 | Hand Luggage |
-| 502 | Bag |
+| 500 - 599 | Luggage 
+| --------- | ----------
+| 501 | Backpack
+| 502 | Suitcase
+| 503 | Bag 
 
  
 | 600 - 699 | Transportation |
 | --------- | ---------- |
-| 601 | Bike |
-| 602 | Car |
-| 603 | Skateboard |
-| 604 | Motorcycle |
+| 601 | Bike
+| 602 | Car 
+| 603 | Skateboard 
 
 
 | 700 - 799 | Wearables |
@@ -129,5 +106,3 @@ As recommended by Apple all iBeacons ranged for by an app share a UUID. The dril
 | 702 | Ring |
 | 703 | Band |
 | 704 | Necklace |
-| 704 | Cap |
-| 704 | Glasses |
