@@ -22,10 +22,12 @@ As recommended by Apple all iBeacons ranged for by an app share a UUID. The dril
 
 ## Major ID
 
-| 0 - 99 | Custom range |
+### Rooms, Spaces
+
+| 0 - 99 | Custom |
 | ------ | -------------------- |  
 | 0 | Portable 
-| 1 - 99 | Undefined/Custom
+| 1 - 99 | Reserved for custom names
 
 
 | 100 - 199 | Home |
@@ -55,27 +57,31 @@ As recommended by Apple all iBeacons ranged for by an app share a UUID. The dril
 
 ## Minor ID
 
+### Objects, Specific Spots
+
 | 0 - 99 | Custom range 
 | ------ | -------------------- 
-| 1 - 99 | Undefined/Custom
+| 1 - 99 | Reserved for custom names
 
 
 | 100 - 199 | Furniture 
 | --------- | ---------- 
 | 101 | Sofa 
-| 102 | Desk 
-| 103 | Table 
-| 104 | Wardrobe 
-| 105 | Bed 
+| 102 | Table 
+| 103 | Wardrobe 
+| 104 | Bed 
+| 105 | Chair
+| 106 | Desk 
 
 
 | 200 - 299 | Appliance 
 | --------- | ---------- 
-| 201 | Boiler
-| 202 | Coffee
+| 201 | Fridge
+| 202 | Boiler
 | 203 | Stove
 | 204 | Oven
-| 205 | Fridge
+| 205 | Coffee
+| 206 | Tea
 
 
 | 300 - 399 | Electronics
@@ -97,7 +103,6 @@ As recommended by Apple all iBeacons ranged for by an app share a UUID. The dril
 | --------- | ---------- |
 | 601 | Bike
 | 602 | Car 
-| 603 | Skateboard 
 
 
 | 700 - 799 | Wearables |
