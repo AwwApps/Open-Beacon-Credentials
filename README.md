@@ -3,9 +3,9 @@ Open-Beacon-Credentials
 
 A shared iBeacon identifier scheme for common use cases.
 
-iBeacons using the UUID **AA6062F0-98CA-4211-8EC4-193EB73CEBE6** can be auto-detected in all apps work across differnt iBeacon vendors and support the **Open Beacon Credentials**. The use of the predefined Major and Minor IDs is optional but will allow showing predefined titles for your iBeacon. 
+The goal is to allow apps to work across different iBeacon vendors.
 
-Using **Open Beacon Credentials** helps apps to implement one tap setup procedure for linking iBeacons across the different vendors. Welcome to the future.
+iBeacons using this shared UUID can be auto-detected in all apps that support **Open Beacon Credentials**. The use of the predefined Major and Minor IDs is optional but will allow showing predefined titles for your iBeacon, making the linking process with iBeacons even more comfortable. 
 
 ### Supporting Apps
 
@@ -25,13 +25,13 @@ The Major ID is used for rough localization by room or space and the Major ID de
 ## Major ID • Rooms, Spaces
 
 | 0 - 99 | Custom
-| ------ | -------------------- 
+| ------ |:-------------------- 
 | 0 | Portable 
-| 1 - 99 | Reserved for custom names
+| 1 - 99 | Reserved for your individual usage
 
 
 | 100 - 199 | Home
-| --------- | ---- 
+| --------- |:---- 
 | 101       | Entry
 | 102       | Hallway
 | 103       | Living Room
@@ -42,14 +42,14 @@ The Major ID is used for rough localization by room or space and the Major ID de
 
 
 | 200 - 299 | Work 
-| --------- | ---- 
+| --------- |:---- 
 | 201       | Entry 
 | 202       | Kitchen 
 | 203       | Bathroom 
 
 
 | 300 - 399 | Commercial 
-| --------- | ---------- 
+| --------- |:---------- 
 | 301 | Entry 
 | 302 | Cashpoint 
 | 303 | Bathroom 
@@ -58,12 +58,12 @@ The Major ID is used for rough localization by room or space and the Major ID de
 ## Minor ID • Specific Spots, Objects
 
 | 0 - 99 | Custom range 
-| ------ | -------------------- 
-| 1 - 99 | Reserved for custom names
+| ------ |:-------------------- 
+| 1 - 99 | Reserved for your individual usage
 
 
 | 100 - 199 | Furniture 
-| --------- | ---------- 
+| --------- |:---------- 
 | 101 | Sofa 
 | 102 | Table 
 | 103 | Wardrobe 
@@ -73,7 +73,7 @@ The Major ID is used for rough localization by room or space and the Major ID de
 
 
 | 200 - 299 | Appliance 
-| --------- | ---------- 
+| --------- |:---------- 
 | 201 | Fridge
 | 202 | Boiler
 | 203 | Stove
@@ -83,7 +83,7 @@ The Major ID is used for rough localization by room or space and the Major ID de
 
 
 | 300 - 399 | Electronics
-| --------- | ---------- 
+| --------- |:---------- 
 | 301 | TV
 | 302 | Projector 
 | 303 | Gaming 
@@ -91,21 +91,21 @@ The Major ID is used for rough localization by room or space and the Major ID de
 
 
 | 500 - 599 | Luggage 
-| --------- | ----------
+| --------- |:----------
 | 501 | Backpack
 | 502 | Suitcase
 | 503 | Bag 
 
  
 | 600 - 699 | Transportation
-| --------- | ---------- 
+| --------- |:---------- 
 | 601 | Bike
 | 602 | Car 
 
 
 | 700 - 799 | Wearables
-| --------- | ---------- 
+| --------- |:---------- 
 | 701 | Watch |
 | 702 | Band |
 
->    Version 1.0
+>   Version 1.0
