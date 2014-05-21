@@ -16,11 +16,11 @@ Apps that follow the **Open Beacon Credentials** standard allow easy linking lev
 
 As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. The Major/Minor ID helps to drill down to a specific iBeacon. The **Major ID** is used for rough localization by room or space and the **Major ID** drills down to a specifc spot or object where the iBeacon is located or integrated.
 
-## UUID (required)
+## UUID _required_
 
 **AA6062F0-98CA-4211-8EC4-193EB73CEBE6**
 
-## Major ID (optional) • Rooms, Spaces
+## Major ID _optional_ • Rooms, Spaces
 
 | 0 - 99 | Custom
 | ------ |:-------------------- 
@@ -55,7 +55,7 @@ As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. 
 | 303 | Bathroom 
 
 
-## Minor ID  (optional) • Specific Spots, Objects
+## Minor ID _optional_ • Specific Spots, Objects
 
 | 0 - 99 | Custom range 
 | ------ |:-------------------- 
