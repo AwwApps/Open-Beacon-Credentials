@@ -5,7 +5,7 @@ A shared iBeacon identifier scheme for common use cases.
 
 The goal is to allow apps for personal use to work across different iBeacon vendors.
 
-Apps that follow the **Open Beacon Credentials** standard allow easy linking leveraging iBeacon auto-detecting and auto-naming them according to the scheme listed below.
+Apps that follow the **Open Beacon Credentials** standard allow easy linking of iBeacon using **auto-detecting** and **auto-naming**.
 
 ### Supporting Apps
 
