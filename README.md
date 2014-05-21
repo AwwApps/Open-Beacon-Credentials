@@ -24,14 +24,14 @@ The Major ID is used for rough localization by room or space and the Major ID de
 
 ## Major ID • Rooms, Spaces
 
-| 0 - 99 | Custom |
-| ------ | -------------------- |  
+| 0 - 99 | Custom
+| ------ | -------------------- 
 | 0 | Portable 
 | 1 - 99 | Reserved for custom names
 
 
-| 100 - 199 | Home |
-| --------- | ---- |
+| 100 - 199 | Home
+| --------- | ---- 
 | 101       | Entry
 | 102       | Hallway
 | 103       | Living Room
@@ -97,14 +97,14 @@ The Major ID is used for rough localization by room or space and the Major ID de
 | 503 | Bag 
 
  
-| 600 - 699 | Transportation |
-| --------- | ---------- |
+| 600 - 699 | Transportation
+| --------- | ---------- 
 | 601 | Bike
 | 602 | Car 
 
 
-| 700 - 799 | Wearables |
-| --------- | ---------- |
+| 700 - 799 | Wearables
+| --------- | ---------- 
 | 701 | Watch |
 | 702 | Band |
 
