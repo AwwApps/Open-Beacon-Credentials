@@ -1,9 +1,11 @@
-Open-iBeacon-Credentials
+Open-Beacon-Credentials
 ========================
 
 A shared iBeacon identifier scheme for common use cases.
 
-iBeacons using the UUID **AA6062F0-98CA-4211-8EC4-193EB73CEBE6** can be auto-detected in all supported cross-iBeacon vendor apps. Optionally use one of the predefined Major and Minor IDs to link a specific title to your iBeacon. This makes linking an iBeacon a one tap procedure instead of manually entering IDs and display names. Welcome to the future.
+iBeacons using the UUID **AA6062F0-98CA-4211-8EC4-193EB73CEBE6** can be auto-detected in all apps work across differnt iBeacon vendors and support the **Open Beacon Credentials**. The use of the predefined Major and Minor IDs is optional but will allow showing predefined titles for your iBeacon. 
+
+Using **Open Beacon Credentials** helps apps to implement one tap setup procedure for linking iBeacons across the different vendors. Welcome to the future.
 
 ### Supporting Apps
 
@@ -12,9 +14,9 @@ iBeacons using the UUID **AA6062F0-98CA-4211-8EC4-193EB73CEBE6** can be auto-det
 
 # Credentials
 
-As recommended by Apple all iBeacons ranged for by an app share a UUID. The drill down to a specific iBeacons uses the Major ID for a rough localization by room or space and the Major ID for the specifc spot.
+As recommended by Apple all iBeacons ranged by an app share a UUID. The Major/Minor ID helps to drill down to a specific location of an iBeacon. 
 
-![Scheme](https://raw.githubusercontent.com/AwwApps/Open-iBeacon-Credentials/master/assets/Scheme_Teaser.svg)
+The Major ID is used for rough localization by room or space and the Major ID defines a specifc spot or object where the iBeacon is located or integrated.
 
 ## UUID
 
