@@ -20,7 +20,7 @@ As recommended by Apple all iBeacons ranged for by an app share a UUID. The dril
 
 **AA6062F0-98CA-4211-8EC4-193EB73CEBE6**
 
-## Major ID • rooms, spaces
+## Major ID • Rooms, Spaces
 
 | 0 - 99 | Custom |
 | ------ | -------------------- |  
@@ -53,7 +53,7 @@ As recommended by Apple all iBeacons ranged for by an app share a UUID. The dril
 | 303 | Bathroom 
 
 
-## Minor ID • specific spots, objects
+## Minor ID • Specific Spots, Objects
 
 | 0 - 99 | Custom range 
 | ------ | -------------------- 
