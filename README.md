@@ -3,9 +3,9 @@ Open-Beacon-Credentials
 
 A shared iBeacon identifier scheme for common use cases.
 
-The goal is to allow apps to work across different iBeacon vendors.
+The goal is to allow apps for personal use to work across different iBeacon vendors.
 
-iBeacons using this shared UUID can be auto-detected in all apps that support **Open Beacon Credentials**. The use of the predefined Major and Minor IDs is optional but will allow showing predefined titles for your iBeacon, making the linking process with iBeacons even more comfortable. 
+Apps that follow the **Open Beacon Credentials** standard allow easy linking leveraging iBeacon auto-detecting and auto-naming them according to the scheme listed below.
 
 ### Supporting Apps
 
@@ -14,15 +14,13 @@ iBeacons using this shared UUID can be auto-detected in all apps that support **
 
 # Credentials
 
-As recommended by Apple all iBeacons ranged by an app share a UUID. The Major/Minor ID helps to drill down to a specific location of an iBeacon. 
+As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. The Major/Minor ID helps to drill down to a specific iBeacon. The **Major ID** is used for rough localization by room or space and the **Major ID** drills down to a specifc spot or object where the iBeacon is located or integrated.
 
-The Major ID is used for rough localization by room or space and the Major ID defines a specifc spot or object where the iBeacon is located or integrated.
-
-## UUID
+## UUID (required)
 
 **AA6062F0-98CA-4211-8EC4-193EB73CEBE6**
 
-## Major ID • Rooms, Spaces
+## Major ID (optional) • Rooms, Spaces
 
 | 0 - 99 | Custom
 | ------ |:-------------------- 
@@ -57,7 +55,7 @@ The Major ID is used for rough localization by room or space and the Major ID de
 | 303 | Bathroom 
 
 
-## Minor ID • Specific Spots, Objects
+## Minor ID  (optional) • Specific Spots, Objects
 
 | 0 - 99 | Custom range 
 | ------ |:-------------------- 
