@@ -39,6 +39,8 @@ The Major ID is used for rough localization by room or space and the Major ID de
 | 105       | Bedroom
 | 107       | Bathroom
 | 108       | Office
+| 109       | Closet
+| 110       | Balkony
 
 
 | 200 - 299 | Work 
