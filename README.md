@@ -103,6 +103,6 @@ As recommended by Apple all iBeacons ranged for by an app share a UUID. The dril
 | 700 - 799 | Wearables |
 | --------- | ---------- |
 | 701 | Watch |
-| 702 | Ring |
-| 703 | Band |
-| 704 | Necklace |
+| 702 | Band |
+
+>    Version 1.0
