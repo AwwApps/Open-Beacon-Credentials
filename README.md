@@ -1,6 +1,8 @@
 Open-Beacon-Credentials
 ========================
 
+<img src="https://raw.githubusercontent.com/AwwApps/Open-Beacon-Credentials/master/assets/logo_open_beacon_credentials.png" width="180" />
+
 A shared iBeacon identifier scheme for common use cases.
 
 The goal is to allow apps for personal use to work across different iBeacon vendors.
