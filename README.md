@@ -16,7 +16,7 @@ Apps that follow the **Open Beacon Credentials** standard allow easy linking of 
 
 ### Usage
 
-As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. The Major/Minor ID helps to drill down to a specific iBeacon. The **Major ID** is used for rough localization by room or space and the **Major ID** drills down to a specifc spot or object where the iBeacon is located or integrated. To leverage the benefits of Open Beacon Credentials in the supporting apps you need to update the UUID to the following. For auto-naming please also pick one of the presets for your Major/Minor ID.
+As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. The Major/Minor ID helps to drill down to a specific iBeacon. The **Major ID** is used for rough localization by room or space and the **Major ID** drills down to a specifc spot or object where the iBeacon is located or integrated. To leverage the benefits of Open Beacon Credentials in the supporting apps you need to update the UUID to one as followed. For auto-naming please also pick one of the presets for your Major/Minor ID.
 
 ## UUID _required_
 
