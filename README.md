@@ -7,6 +7,8 @@ A shared iBeacon identifier scheme for common use cases.
 
 The goal is to allow apps for personal use to work across different iBeacon vendors.
 
+### Benefits
+
 Apps that follow the **Open Beacon Credentials** standard allow easy linking of iBeacon using **auto-detecting** and **auto-naming**.
 
 ### Supporting Apps
@@ -14,9 +16,9 @@ Apps that follow the **Open Beacon Credentials** standard allow easy linking of 
 * [Launch Here](http://launchhere.awwapps.com) (upcoming)
 * [Travel Radar](http://travelradar.awwapps.com) (upcoming)
 
-# Credentials
+### Usage
 
-As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. The Major/Minor ID helps to drill down to a specific iBeacon. The **Major ID** is used for rough localization by room or space and the **Major ID** drills down to a specifc spot or object where the iBeacon is located or integrated.
+As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. The Major/Minor ID helps to drill down to a specific iBeacon. The **Major ID** is used for rough localization by room or space and the **Major ID** drills down to a specifc spot or object where the iBeacon is located or integrated. To leverage the benefits of Open Beacon Credentials in the supporting apps you need to update the UUID to the following. For auto-naming please also pick one of the presets for your Major/Minor ID.
 
 ## UUID _required_
 
