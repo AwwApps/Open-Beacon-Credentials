@@ -32,36 +32,29 @@ As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. 
 
 | 100 - 199 | Home
 | --------- |:---- 
-| 101       | Entry
+| 101       | Entrance
 | 102       | Hallway
 | 103       | Living Room
 | 104       | Kitchen
 | 105       | Bedroom
-| 107       | Bathroom
-| 108       | Office
-| 109       | Closet
-| 110       | Balkony
+| 106       | Bathroom
+| 107       | Office
+| 108       | Closet
+| 109       | Balkony
 
 
 | 200 - 299 | Work 
 | --------- |:---- 
-| 201       | Entry 
+| 201       | Entrance 
 | 202       | Kitchen 
 | 203       | Bathroom 
-
-
-| 300 - 399 | Commercial 
-| --------- |:---------- 
-| 301 | Entry 
-| 302 | Cashpoint 
-| 303 | Bathroom 
 
 
 ## Minor ID _optional_ • Specific Spots, Objects
 
 | 0 - 99 | Custom range 
 | ------ |:-------------------- 
-| 1 - 99 | Reserved for your individual usage
+| 0 - 99 | Reserved for your individual usage
 
 
 | 100 - 199 | Furniture 
@@ -82,6 +75,7 @@ As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. 
 | 204 | Oven
 | 205 | Coffee
 | 206 | Tea
+| 207 | Wage
 
 
 | 300 - 399 | Electronics
@@ -89,7 +83,9 @@ As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. 
 | 301 | TV
 | 302 | Projector 
 | 303 | Gaming 
-| 304 | Stereo 
+| 304 | Stereo
+| 305 | Charger
+| 306 | Computer
 
 
 | 500 - 599 | Luggage 
@@ -109,5 +105,10 @@ As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. 
 | --------- |:---------- 
 | 701 | Watch |
 | 702 | Band |
+| 703 | Headphones |
+| 704 | Apparel |
+| 705 | Shoes |
+| 706 | Purse |
+
 
 >   Version 1.0
