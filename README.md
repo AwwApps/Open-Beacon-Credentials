@@ -88,27 +88,27 @@ As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. 
 | 306 | Computer
 
 
-| 500 - 599 | Luggage 
+| 400 - 499 | Luggage 
 | --------- |:----------
-| 501 | Backpack
-| 502 | Suitcase
-| 503 | Bag 
+| 401 | Backpack
+| 402 | Suitcase
+| 403 | Bag 
 
  
-| 600 - 699 | Transportation
+| 500 - 599 | Mobility
 | --------- |:---------- 
-| 601 | Bike
-| 602 | Car 
+| 501 | Bike
+| 502 | Car 
 
 
-| 700 - 799 | Wearables
+| 600 - 699 | Wearables
 | --------- |:---------- 
-| 701 | Watch |
-| 702 | Band |
-| 703 | Headphones |
-| 704 | Apparel |
-| 705 | Shoes |
-| 706 | Purse |
+| 601 | Watch |
+| 602 | Band |
+| 603 | Headphones |
+| 604 | Apparel |
+| 605 | Shoes |
+| 606 | Purse |
 
 
 >   Version 1.0
