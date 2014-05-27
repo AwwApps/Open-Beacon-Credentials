@@ -65,6 +65,7 @@ As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. 
 | 104 | Bed 
 | 105 | Chair
 | 106 | Desk 
+| 107 | Cupboard
 
 
 | 200 - 299 | Appliance 
