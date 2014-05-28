@@ -1,13 +1,13 @@
 Open-Beacon-Credentials
 ========================
 
-A shared iBeacon identifier scheme for common use cases. Using this to enable apps work across different iBeacon vendors and provides a simplified setup process to link apps to iBeacons. This ID scheme is specifically made for casual use cases. If you are looking into large scale or commercial iBeacon deployments, this is **not** for you, but feel free to use this as an inspiration.
+A shared iBeacon identifier scheme for common use cases. Using this enables apps to work across different iBeacon vendors and provides a simplified setup process to link apps to iBeacons. This ID scheme is specifically made for casual use cases. If you are looking into large scale or commercial iBeacon deployments, this is **not** quite for you, but feel free to use it as an inspiration.
 
 <img src="https://raw.githubusercontent.com/AwwApps/Open-Beacon-Credentials/master/Media/Logo_OpenBeaconCredentials.png" width="180" />
 
 ### Benefits
 
-Apps that support **Open Beacon Credentials** allow easy linking of iBeacon using **auto-detecting** and **auto-naming**.
+Apps that support **Open Beacon Credentials** allow easy linking of iBeacon using **auto-detection** and **auto-naming**.
 
 ### Supporting Apps
 
@@ -16,7 +16,7 @@ Apps that support **Open Beacon Credentials** allow easy linking of iBeacon usin
 
 ### Usage
 
-As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. The Major/Minor ID helps to drill down to a specific iBeacon. The **Major ID** is used for rough localization by room or space and the **Major ID** drills down to a specifc spot or object where the iBeacon is located or integrated. To leverage the benefits of Open Beacon Credentials in the supporting apps you need to update the UUID to one as followed. For auto-naming please also pick one of the presets for your Major/Minor ID. Check out our [wiki](https://github.com/AwwApps/Open-Beacon-Credentials/wiki/How-to-update-your-iBeacon-UUID,-Major-Minor-ID%3F) if more information about how to change the ID of your iBeacon.
+As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. The Major/Minor ID helps to drill down to a specific iBeacon. The **Major ID** is used to define a rough localization by room. The **Major ID** drills down to a specifc spot or object where the iBeacon is placed or integrated. To leverage the benefits of Open Beacon Credentials in the supporting apps you need to update its UUID and pick one of the preset names to drive the choice for your Major/Minor ID. Check out our [wiki](https://github.com/AwwApps/Open-Beacon-Credentials/wiki/How-to-update-your-iBeacon-UUID,-Major-Minor-ID%3F) if more information about how to change the ID of your iBeacon.
 
 ## UUID 
 
