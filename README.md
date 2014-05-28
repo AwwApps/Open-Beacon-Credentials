@@ -22,12 +22,12 @@ As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. 
 
 **AA6062F0-98CA-4211-8EC4-193EB73CEBE6**
 
-## Major ID • Room _required for auto-naming_
+## Major ID _required for auto-naming_ ≈ Room 
 
-| 0 - 99 | Custom
+| 0 - 99 | Custom Range
 | ------ |:-------------------- 
 | 0 | Portable 
-| 1 - 99 | Reserved for your individual usage
+| 1 - 99 | Reserved for individual usage
 
 
 | 100 - 199 | Home
@@ -50,11 +50,11 @@ As recommended by Apple all iBeacons ranged by a specific app share a **UUID**. 
 | 203       | Bathroom 
 
 
-## Minor ID • Object _required for auto-detection_
+## Minor ID _required for auto-detection_ ≈ Object
 
-| 0 - 99 | Custom range 
+| 0 - 99 | Custom Range 
 | ------ |:-------------------- 
-| 0 - 99 | Reserved for your individual usage
+| 0 - 99 | Reserved for individual usage
 
 
 | 100 - 199 | Furniture 
