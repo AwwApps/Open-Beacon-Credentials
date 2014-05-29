@@ -119,3 +119,5 @@ Required for auto-detection
 
 
 >   Version 1.0
+
+*Wow, crazy! You made it through this whole page. If you are interested in more background information, check out our [blog](http://blog.awwapps.com/blog/categories/ibeacon/)* ★
