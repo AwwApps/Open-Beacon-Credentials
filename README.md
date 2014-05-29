@@ -3,7 +3,7 @@ Open-Beacon-Credentials
 
 A shared iBeacon identifier scheme for common use cases. Using this enables apps to work across different iBeacon vendors and provides a simplified setup process to link apps to iBeacons. This ID scheme is specifically made for casual use cases. If you are looking into large scale or commercial iBeacon deployments, this is **not** quite for you, but feel free to use it as an inspiration.
 
-<img src="https://raw.githubusercontent.com/AwwApps/Open-Beacon-Credentials/master/Media/Logo_OpenBeaconCredentials.png" width="180" />
+<img src="https://raw.githubusercontent.com/AwwApps/Open-Beacon-Credentials/master/Images/Logo_OpenBeaconCredentials.png" width="180" />
 
 ### Benefits
 
