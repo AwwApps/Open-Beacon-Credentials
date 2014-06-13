@@ -83,6 +83,7 @@ Required for auto-detection
 | 205 | Coffee
 | 206 | Tea
 | 207 | Wage
+| 208 | Washing Machine
 
 
 | 300 - 399 | Electronics
