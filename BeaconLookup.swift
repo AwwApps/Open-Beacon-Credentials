@@ -18,6 +18,14 @@ class BeaconLookup: NSObject {
         let lookedUpString:NSString = lookUpForCLBeacon(region).string as NSString!
         return lookedUpString
     }
+    
+    class func lookUpSpotForCredentials(beaconUUID:NSString,beaconMajorID:Int,beaconMinorID:Int)->NSString {
+        var region:CLBeaconRegion
+        let uuid:NSUUID  = NSUUID(UUIDString: beaconUUID)!
+        region = CLBeaconRegion(proximityUUID: uuid, major: CLBeaconMajorValue(beaconMajorID), minor: CLBeaconMinorValue(beaconMinorID), identifier: beaconUUID)
+        let lookedUpString:NSString = lookUpForCLBeacon(region).spot as NSString!
+        return lookedUpString
+    }
         
     class func lookUpForCLBeacon(beacon:CLBeaconRegion)->(room:NSString?, spot:NSString?, string:NSString) {
 
