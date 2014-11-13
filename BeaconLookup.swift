@@ -23,8 +23,12 @@ class BeaconLookup: NSObject {
         var region:CLBeaconRegion
         let uuid:NSUUID  = NSUUID(UUIDString: beaconUUID)!
         region = CLBeaconRegion(proximityUUID: uuid, major: CLBeaconMajorValue(beaconMajorID), minor: CLBeaconMinorValue(beaconMinorID), identifier: beaconUUID)
-        let lookedUpString:NSString = lookUpForCLBeacon(region).spot as NSString!
-        return lookedUpString
+        var lookedUpString:NSString? = lookUpForCLBeacon(region).spot
+        if lookedUpString != nil {
+            return lookedUpString!
+        } else {
+            return "Beacon"
+        }
     }
         
     class func lookUpForCLBeacon(beacon:CLBeaconRegion)->(room:NSString?, spot:NSString?, string:NSString) {
