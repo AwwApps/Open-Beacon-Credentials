@@ -9,9 +9,9 @@
 import UIKit
 import CoreLocation
 
-class BeaconLookup: NSObject {
+public class BeaconLookup: NSObject {
 
-    class func lookUpForCredentials(beaconUUID:NSString,beaconMajorID:Int,beaconMinorID:Int)->NSString {
+    public class func lookUpForCredentials(beaconUUID:NSString,beaconMajorID:Int,beaconMinorID:Int)->NSString {
         var region:CLBeaconRegion
         let uuid:NSUUID  = NSUUID(UUIDString: beaconUUID)!
         region = CLBeaconRegion(proximityUUID: uuid, major: CLBeaconMajorValue(beaconMajorID), minor: CLBeaconMinorValue(beaconMinorID), identifier: beaconUUID)
@@ -19,7 +19,7 @@ class BeaconLookup: NSObject {
         return lookedUpString
     }
     
-    class func lookUpSpotForCredentials(beaconUUID:NSString,beaconMajorID:Int,beaconMinorID:Int)->NSString {
+    public class func lookUpSpotForCredentials(beaconUUID:NSString,beaconMajorID:Int,beaconMinorID:Int)->NSString {
         var region:CLBeaconRegion
         let uuid:NSUUID  = NSUUID(UUIDString: beaconUUID)!
         region = CLBeaconRegion(proximityUUID: uuid, major: CLBeaconMajorValue(beaconMajorID), minor: CLBeaconMinorValue(beaconMinorID), identifier: beaconUUID)
@@ -31,7 +31,7 @@ class BeaconLookup: NSObject {
         }
     }
         
-    class func lookUpForCLBeacon(beacon:CLBeaconRegion)->(room:NSString?, spot:NSString?, string:NSString) {
+    public class func lookUpForCLBeacon(beacon:CLBeaconRegion)->(room:NSString?, spot:NSString?, string:NSString) {
 
         let lookUpMajor:NSString = beacon.major.stringValue;
         let lookUpMinor:NSString = beacon.minor.stringValue;
@@ -89,7 +89,7 @@ class BeaconLookup: NSObject {
         return (beaconRoom,beaconSpot,label)
     }
     
-    class func lookUpRange(identifier:Int, rangeDictionary:NSDictionary)->NSString? {
+    public class func lookUpRange(identifier:Int, rangeDictionary:NSDictionary)->NSString? {
         var lookedUpString:NSString?
         rangeDictionary.enumerateKeysAndObjectsUsingBlock { (key, object, stop) -> Void in
             let from:Int? = Int(object.valueForKey("from") as NSNumber)
@@ -104,13 +104,13 @@ class BeaconLookup: NSObject {
         return lookedUpString
     }
 
-    class func openBeaconCredentialsDictionary()->NSDictionary {
-        let path:NSString = NSBundle.mainBundle().pathForResource("OpenBeaconCredentials_01", ofType: "plist")!
+    public class func openBeaconCredentialsDictionary()->NSDictionary {
+        let path:NSString = NSBundle(forClass: BeaconLookup.self).pathForResource("OpenBeaconCredentials", ofType: "plist")!
         let openBeaconCredentialsDictionary:NSDictionary = NSDictionary(contentsOfFile: path)!
         return openBeaconCredentialsDictionary
     }
     
-    class func lookUpNameForUUID(uuidString:NSString)->NSString {
+    public class func lookUpNameForUUID(uuidString:NSString)->NSString {
         let beacons:NSDictionary = openBeaconCredentialsDictionary().objectForKey("UUID") as NSDictionary
         let name:NSString? = beacons.objectForKey(uuidString) as? NSString
         if name != nil {
@@ -119,7 +119,7 @@ class BeaconLookup: NSObject {
         return "Beacon"
     }
     
-    class func allBeacons()->NSArray {
+    public class func allBeacons()->NSArray {
         let beacons:NSDictionary = openBeaconCredentialsDictionary().objectForKey("UUID") as NSDictionary
         var allBeacons:NSMutableArray = NSMutableArray()
         beacons.enumerateKeysAndObjectsUsingBlock { (item, count, stop) -> Void in
